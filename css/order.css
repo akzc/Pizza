@@ -1,0 +1,42 @@
+.order-pizza {
+  width: 100%;
+  display: flex;
+  background-image: url(/images/order-img/order-font.png);
+  background-repeat: no-repeat;
+}
+
+.order-left {
+  font-size: 25px;
+  margin: 73px 0px 0px 130px;
+  color: white;
+}
+.order-left h1 {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.order-a {
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: #f46e0e;
+  color: white;
+  font-size: 30px;
+  padding: 18.5px 44px;
+  box-shadow: 0px 4px 30px 5px #f46e0ed7;
+  text-shadow: 0px 0px 14px #ffffff75;
+}
+
+.order-right {
+  position: relative;
+}
+
+.order-right img {
+  position: relative;
+  top: -10px;
+  width: 1204px;
+  transition: 0.5s;
+}
+
+.order-right img:hover {
+  transform: translateY(-15px);
+}

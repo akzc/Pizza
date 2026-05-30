@@ -26,7 +26,7 @@ body {
   border-radius: 50px;
   padding: 11px 55px;
   font-size: 30px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .add-ul-btn:hover {
@@ -35,6 +35,8 @@ body {
 }
 
 .add-ul-btn_1 {
+  background-color: #f46e0e;
+  transition: 0.5s;
   position: relative;
   top: -2px;
   border: none;

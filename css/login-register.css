@@ -130,18 +130,3 @@ body {
 .btn-login:hover {
   background-color: #e56000;
 }
-
-/* Стили для регистрации (Компактная кнопка) */
-.btn-register {
-  width: auto;
-  display: inline-block;
-  padding: 10px 25px;
-  border-radius: 20px;
-  background-color: transparent;
-  color: #333333;
-  border: 1px solid #ff6b00;
-}
-
-.btn-register:hover {
-  background-color: rgba(255, 107, 0, 0.05);
-}

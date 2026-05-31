@@ -5,14 +5,20 @@ const pass = document.getElementById("login-password");
 loginForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  if (name.value.trim() === "") {
+  if (name.value.trim() === "" || pass.value.trim() === "") {
     alert("Тут пусто");
     return;
   } else if (pass.value.trim().length < 8) {
     alert("Пороль Меньше 8");
     return;
   }
-  register(name.value.trim(), pass.value.trim());
+  const isSuccess = register(name.value.trim(), pass.value.trim());
+
+  if (isSuccess) {
+    name.value = "";
+    pass.value = "";
+    window.location.href = "login.html";
+  }
 });
 
 function register(name, pass) {

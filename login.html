@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пицца на лету — Вход</title>
+    <link rel="stylesheet" href="css/login-register.css" />
+    <link rel="shortcut icon" href="images/favicon.svg" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="logo">
+        <span class="logo-icon"
+          ><img src="images/header-img/header-logo.svg" alt=""
+        /></span>
+      </div>
+
+      <form id="login-form" class="auth-form">
+        <h2 class="form-title">Login</h2>
+        <p class="form-p">Name</p>
+        <input type="text" id="login-name" class="input" placeholder="name" />
+        <p class="form-p">Password</p>
+        <input
+          type="password"
+          id="login-password"
+          class="input"
+          placeholder="password"
+        />
+        <div class="form-footer">
+          <button type="submit" class="submit-btn btn-login">Login</button>
+          <p class="from-p">
+            Нет аккаунта? <a href="register.html">Register!</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script src="js/register.js"></script>
+  </body>
+</html>

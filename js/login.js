@@ -1,9 +1,10 @@
 const loginForm = document.getElementById("login-form");
 const nameInput = document.getElementById("login-name"); // Переименовали, чтобы не путать с функцией
 const passInput = document.getElementById("login-password");
-
+const logoutBtn = document.getElementById("logoutBtn");
 const headerLogin = document.getElementById("header-login");
 const headerName = document.getElementById("header-name");
+const loginName = document.getElementById("login-name");
 
 // 1. Функция проверки авторизации (работает везде)
 function checkAuth() {
@@ -13,6 +14,7 @@ function checkAuth() {
     // Пользователь ВОШЕЛ: прячем кнопку Login, показываем иконку профиля
     headerLogin.classList.add("hidden");
     headerName.classList.remove("hidden");
+    loginName.textContent = currentUser;
   } else {
     // Пользователь НЕ вошел: показываем кнопку Login, прячем профиль
     headerLogin.classList.remove("hidden");
@@ -64,5 +66,10 @@ if (loginForm) {
   });
 }
 
-// Запускаем проверку при загрузке страницы
+logoutBtn.addEventListener("click", (event) => {
+  event.preventDefault();
+  localStorage.removeItem("currUser");
+  window.location.href = "index.html";
+});
+
 checkAuth();

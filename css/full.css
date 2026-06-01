@@ -7,6 +7,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .btn-orange {
   border: none;
   font-weight: bold;

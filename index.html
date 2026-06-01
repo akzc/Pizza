@@ -24,9 +24,21 @@
           </ul>
         </nav>
         <a href="login.html" id="header-login" class="btn-orange"> Login </a>
-        <button id="header-name">
-          <img src="images/header-img/people 1.svg" alt="people" />
-        </button>
+        <div class="user-profile" id="header-name">
+          <button id="headerName " class="header-name-2 profile-btn">
+            <img src="images/header-img/people 1.svg" alt="people" />
+          </button>
+
+          <div class="profile-menu" id="profileMenu">
+            <div class="menu-item user-name" id="user-name">
+              Имя Пользователя
+            </div>
+            <hr class="menu-divider" />
+            <button class="menu-item btn-action logout-btn" id="logoutBtn">
+              <span>Выйти</span>
+            </button>
+          </div>
+        </div>
       </div>
     </header>
     <section class="order-pizza">
@@ -119,5 +131,6 @@
     </section>
     <script src="js/add-pizza.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/burger.js"></script>
   </body>
 </html>

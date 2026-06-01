@@ -105,4 +105,9 @@ body {
   font-size: 22px;
   font-weight: bold;
   padding: 13px 44px;
+  transition: 0.5s;
+}
+
+.card-btn:hover {
+  opacity: 0.8;
 }

@@ -23,5 +23,13 @@ loginForm.addEventListener("submit", (event) => {
 
 function register(name, pass) {
   const users = JSON.parse(localStorage.getItem("users") || "[]");
-  localStorage.setItem("users", JSON.stringify({ name, pass }));
+  const userExists = users.some((user) => user.name === name);
+
+  if (userExists) {
+    alert("пользователь уже есть ");
+    return false;
+  }
+  users.push({ name: name, pass: pass });
+  localStorage.setItem("users", JSON.stringify(users));
+  return true;
 }

@@ -240,8 +240,8 @@ a {
   #header-login {
     display: block;
     font-weight: 600;
-    font-size: 20px;
-    padding: 10px 25px;
+    font-size: 15px;
+    padding: 6px 20px;
     transition: 0.5s;
   }
 

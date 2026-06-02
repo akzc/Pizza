@@ -92,7 +92,7 @@
   }
 
   .order-left {
-    margin: 0px 30px;
+    margin: 10px 30px;
   }
   .order-left h1 {
     font-size: 20px;
@@ -111,6 +111,7 @@
   }
 
   .order-right img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
   }
 }

@@ -203,10 +203,12 @@ body {
 
   .add-pizza-h1 {
     color: #000000;
-    font-size: 30px;
+    font-size: 25px;
+    padding-block: 20px;
   }
 
   .add-pizza-ul {
+    display: none;
     gap: 5px;
     padding-bottom: 10px;
   }
@@ -233,9 +235,6 @@ body {
   .cards-img img {
     max-width: 350px;
     max-height: 350px;
-  }
-
-  .cards-img {
   }
 
   .card-text {

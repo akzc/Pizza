@@ -1,7 +1,7 @@
 .order-pizza {
   width: 100%;
   display: flex;
-  background-image: url(/images/order-img/order-font.png);
+  background-image: url(../images/order-img/order-font.png);
   background-repeat: no-repeat;
 }
 

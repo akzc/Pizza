@@ -35,3 +35,82 @@
 .order-right img:hover {
   transform: translateY(-15px);
 }
+
+@media (max-width: 1420px) {
+  .order-pizza {
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    background-image: url(/images/order-img/order-font.png);
+    background-repeat: no-repeat;
+  }
+
+  .order-left {
+    font-size: 15px;
+    margin: 74px 0px 0px 45px;
+    color: white;
+  }
+  .order-left h1 {
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+  .order-left a {
+    padding: 18.5px 44px;
+
+    font-size: 25px;
+  }
+
+  .order-right img {
+    position: relative;
+    top: -10px;
+    width: 904px;
+
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 575px) {
+  .order-pizza {
+    width: 100%;
+    background: none;
+    display: grid;
+    position: relative;
+  }
+  .bg-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/login-register/login-register-font.png");
+    background-size: cover;
+    width: 100%;
+    filter: blur(1px);
+    z-index: -1;
+  }
+
+  .order-left {
+    margin: 0px 30px;
+  }
+  .order-left h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .order-left a {
+    padding: 6px 50px;
+    font-size: 15px;
+  }
+
+  .order-right {
+    text-align: center;
+    grid-row: 1;
+  }
+
+  .order-right img {
+    width: 500px;
+  }
+}

@@ -111,3 +111,175 @@ body {
 .card-btn:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 1420px) {
+  .add-pizza {
+    margin: 60px 100px;
+  }
+
+  .add-pizza-h1 {
+    font-size: 50px;
+  }
+
+  .add-pizza-ul {
+    gap: 15px;
+    padding-bottom: 40px;
+  }
+
+  .add-ul-btn {
+    padding: 8px 50px;
+    font-size: 25px;
+  }
+
+  .add-ul-btn:hover {
+    opacity: 0.8;
+  }
+
+  .add-ul-btn_1 {
+    padding: 8px 50px;
+    font-size: 25px;
+    transition: 0.5s;
+  }
+
+  .add-ul-btn_1:hover {
+    opacity: 0.8;
+  }
+
+  .cards-img img {
+    max-width: 284px;
+    max-height: 200px;
+  }
+
+  .card-text {
+    width: 260px;
+  }
+
+  .add-pizza-cards {
+    display: flex;
+    gap: 10px;
+  }
+
+  .cards-info {
+    position: relative;
+    top: -6px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 51px 0px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-inline: 10px;
+    padding-block: 19.5px;
+  }
+
+  .card-text h1 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .card-text p {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .card-add {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .card-add p {
+    font-size: 18px;
+  }
+
+  .card-btn {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .add-pizza {
+    margin: 30px 30px;
+  }
+
+  .add-pizza-h1 {
+    color: #000000;
+    font-size: 30px;
+  }
+
+  .add-pizza-ul {
+    gap: 5px;
+    padding-bottom: 10px;
+  }
+
+  .add-ul-btn {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+
+  .add-ul-btn:hover {
+    opacity: 0.8;
+  }
+
+  .add-ul-btn_1 {
+    padding: 8px 20px;
+    font-size: 15px;
+    transition: 0.5s;
+  }
+
+  .add-ul-btn_1:hover {
+    opacity: 0.8;
+  }
+
+  .cards-img img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .cards-img {
+  }
+
+  .card-text {
+    width: 260px;
+  }
+
+  .add-pizza-cards {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .cards-info {
+    top: -6px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 51px 0px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-inline: 10px;
+    padding-block: 19.5px;
+  }
+
+  .card-text h1 {
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .card-text p {
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  .card-add {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .card-add p {
+    font-size: 26px;
+  }
+
+  .card-btn {
+    font-size: 20px;
+    padding: 10px 18px;
+  }
+}

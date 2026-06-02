@@ -233,8 +233,11 @@ body {
   }
 
   .cards-img img {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 460px;
+    max-height: none;
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Заполняет блок и обрезает лишнее без искажений */
   }
 
   .card-text {
@@ -259,26 +262,26 @@ body {
 
   .card-text h1 {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .card-text p {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .card-add {
     padding-top: 20px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
   }
 
   .card-add p {
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .card-btn {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 18px;
   }
 }
